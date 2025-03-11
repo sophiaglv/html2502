@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/image.png" alt="">
+        <p>Digite suas notas do Enem para descobrir cursos disponíveis:</p>
+        <p id="texto"></p>
+
+        <div class="notas">
+            <div class="notas-item">
+                <input type="number" placeholder="1000" id="natureza">
+                <label for="natureza"><b>Ciências</b> da Natureza</label>
+            </div>
+            <div class="notas-item">
+                <input type="number" placeholder="1000" id="humanas">
+                <label for="humanas"><b>Ciências</b> da Humanas</label>
+            </div>
+            <div class="notas-item">
+                <input type="number" placeholder="1000" id="linguagens">
+                <label for="linguagens">Códigos e Linguagens</label>
+            </div>
+            <div class="notas-item">
+                <input type="number" placeholder="1000" id="matematica">
+                <label for="matematica">Matemática</label>
+            </div>
+            <div class="notas-item">
+                <input type="number" placeholder="1000" id="redacao">
+                <label for="redação">Redação</label>
+            </div>
+        </div>
+
+        <button onclick="calcularCursos()">Ver cursos que eu passaria</button>
+        <script src="/js/script.js"></script>
+</body>
+
+</html>
